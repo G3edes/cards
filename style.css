@@ -1,0 +1,58 @@
+:root{
+    --cor-hover:#ffff;
+}
+*{
+    padding: 0;
+    margin: 0%;
+}
+ul, ol, li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+nav{
+    background-color: cadetblue;
+}
+.menu a{
+    padding: 4px;
+    transition: 0.5s;
+    
+}
+.menu a:hover{
+    background-color: var(--cor-hover);
+    border-radius: 4px;
+}
+.menu{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: end;
+    gap: 16px;
+    padding: 16px;
+}
+.menu img{
+    height: 20px;
+}
+#all{
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+    display: flex;
+}
+#card{
+    display: flex;
+    flex-direction: column;
+    width: 17%;
+    height: 40%;
+    background-color: gray;
+
+}
+#card p{
+    word-break: break-all;
+}
+img{
+    width: 100%;
+    height: 20%;
+}
